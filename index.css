@@ -191,3 +191,14 @@ footer {
   color: #fff;
   margin-top: 40px;
 }
+.intro p {
+  margin: 20px auto;
+  max-width: 800px;
+  font-size: 1.1em;
+  color: #444;
+  background: #fdfdfd;
+  padding: 15px;
+  border-left: 4px solid #007BFF;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
