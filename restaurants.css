@@ -1,0 +1,113 @@
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #fdfdfd;
+  color: #333;
+  line-height: 1.6;
+}
+
+nav {
+  background: #222;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav h2 {
+  margin: 0;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  padding: 6px 12px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+  background: #FF7043; /* warm food accent */
+  border-radius: 4px;
+  color: #fff;
+}
+
+.hero {
+  text-align: center;
+  padding: 90px 20px;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('food-banner.jpg') no-repeat center center/cover;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.hero p {
+  font-size: 1.3em;
+  font-style: italic;
+}
+
+.content {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.1);
+}
+
+.content p {
+  font-size: 1.15em;
+  margin-bottom: 25px;
+  color: #444;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin: 30px 0;
+}
+
+.gallery figure {
+  text-align: center;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+}
+
+.gallery figcaption {
+  margin-top: 10px;
+  font-size: 1em;
+  color: #555;
+  font-weight: 500;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
