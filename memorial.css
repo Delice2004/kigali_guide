@@ -97,19 +97,7 @@ footer {
   padding: 15px;
   margin-top: 40px;
 }
-.hero {
-  text-align: center;
-  padding: 100px 20px;
-  background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-              url('memorial.css') no-repeat center center/cover;
-  color: #fff;
-}
 
-.hero h1 {
-  font-size: 2.8em;
-  margin-bottom: 15px;
-  font-weight: 700;
-}
 
 p {
   text-align: center;
@@ -132,4 +120,21 @@ p a:hover {
   background-color: #218838;
   border-color: #218838;
   color: #fff;
+}
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+              url('3memorial kigali.jpg') no-repeat center center/cover;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 2.8em;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.2em;
 }
