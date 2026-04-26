@@ -98,3 +98,36 @@ footer {
   padding: 15px;
   margin-top: 40px;
 }
+p a {
+  display: inline-block;
+  font-size: 1.3em;           
+  color: #FF7043;             
+  font-weight: 600;
+  text-decoration: none;
+  padding: 8px 14px;
+  border: 2px solid #FF7043;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+p {
+  text-align: center;
+}
+
+p a {
+  display: inline-block;
+  font-size: 1.5em;         
+  color: #fff;              
+  font-weight: 700;
+  text-decoration: none;
+  padding: 14px 24px;      
+  background-color: #28a745; 
+  border: 2px solid #28a745;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+p a:hover {
+  background-color: #218838;
+  border-color: #218838;
+  color: #fff;
+}
