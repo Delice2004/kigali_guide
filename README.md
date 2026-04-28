@@ -27,4 +27,8 @@ Features Demonstrated
 - CSS styling for layout, images, and hover effects
 - Flexbox/Grid for responsive galleries
 - Separate CSS file for each page
+  
+
+- NAME : Delice UWAMAHORO
+- COURSE: Advanced in FRONTEND
 
