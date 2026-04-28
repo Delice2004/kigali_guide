@@ -29,6 +29,6 @@ Features Demonstrated
 - Separate CSS file for each page
   
 
-- NAME : Delice UWAMAHORO
-- COURSE: Advanced in FRONTEND
+NAME : Delice UWAMAHORO
+COURSE: Advanced in FRONTEND
 
