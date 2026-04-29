@@ -148,3 +148,25 @@ p a:hover {
 .hero p {
   font-size: 1.2em;
 }
+@media (max-width: 768px) {
+  nav div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .places {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .video-form {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .map iframe {
+    width: 100%;
+    height: 300px;
+  }
+}
